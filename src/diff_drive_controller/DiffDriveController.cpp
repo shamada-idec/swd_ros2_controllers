@@ -836,7 +836,7 @@ namespace ezw::swd {
         /**
          * @brief Retrieve the status of safety inputs of the specified safety function id from the left SWD.
          *
-         * @param id Id of the safety control function.
+         * @param id Id of the safety function.
          *
          * @return false if any one of them is false, otherwise true.
          */
@@ -854,7 +854,7 @@ namespace ezw::swd {
         /**
          * @brief Retrieve the status of safety inputs of the specified safety function id from the right SWD.
          *
-         * @param id Id of the safety control function.
+         * @param id Id of the safety function.
          *
          * @return false if any one of them is false, otherwise true.
          */
